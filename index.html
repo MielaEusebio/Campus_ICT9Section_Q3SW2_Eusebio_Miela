@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 Seatwork 2</title>
+
+    <style>
+        form {
+            background-color: rgb(255, 230, 180);
+            display: block;
+            margin: 50px;
+            padding: 50px;
+            border: 6px groove #975b02;
+
+        }
+
+        img {
+            border: 3px solid #971402;
+            text-align:center;
+        }
+    </style>
+
+</head>
+<body  style="background-color: rgb(255, 254, 220); text-align:center; margin:50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+    <h1 style="color:rgb(139, 42, 0);">Locate Products and Discounts!</h1>
+<form>
+    <h2 style="color:rgb(117, 81, 42)">Tell us what is your budget?</h2>
+    <h4 style="color:rgb(212, 183, 88)">We can get laptops like these for your needs!</h4>
+    <img src="https://dlcdnwebimgs.asus.com/files/media/17ef6b42-b8f8-4c24-a7ef-6bfe20c821e7/v1/assets/image/proart/article_cover.jpg" alt="Picture of laptops" class="img-fluid img-thumbnail mx-auto d-block" width="500"><br> 
+<!-- Citation for picture: Asus. (2024, November 22). The best All-Around AI laptop on a budget: ASUS VivoBook S14 & S16. ASUS Philippines. https://www.asus.com/ph/content/the-best-all-around-ai-laptop-on-a-budget-asus-vivobook-s14-and-s16/ -->
+    <input type="number" id="budget" placeholder="Enter your budget"><br>
+        <input type="button" onclick="compute_range()" value="Compute"><br>
+
+</form>
+
+    <div id="result" style="color:rgb(97, 14, 14); font-size:20px;"></div>
+    <div id="details" style="color:#971402;"></div>
+    <div id="details2" style="color:#971402;"></div>
+   
+    <script src="main.js"></script>
+</body>
+</html>
